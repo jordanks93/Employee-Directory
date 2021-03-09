@@ -66,7 +66,7 @@ function Main() {
         });
         setFilteredEmployees([...employeeList]);
         break;
-        
+
       default:
         break;
     }

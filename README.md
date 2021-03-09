@@ -2,6 +2,10 @@
 
   ## Description
   An employee directory app that will sort and filter employees by name, location and email depending on the users input.
+  
+  [GH Pages Link](https://jordanks93.github.io/Employee-Directory/)
+
+  ![Demo](./public/demo.jpg)
 
   ## Table of Contents
   * [Installation](#installation)
@@ -11,11 +15,14 @@
   * [License](#license)
    
   ## Installation
+  ### Requires
+  * Node
+
   1. Clone the repo from github 
   2. Pull up the project in your file directory 
-  3. Type "npm i" into the console to install the required modules 
-  4. Type "node index.js" to run the program 
-  5. Follow the prompts until newREADME.md is generated in the project folder.
+  3. Type "npm i" into the terminal to install the required modules 
+  4. Type "npm start" to run the program 
+
   ## Credits
   Jordan Stuckman
   ## Contributions

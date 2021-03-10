@@ -33,35 +33,20 @@ function Main() {
   const sortData = (column) => {
     switch (column) {
       case "name":
-        employeeList.sort((a, b) => {
-          if (a.name.last.toLowerCase() < b.name.last.toLowerCase()) {
-            return -1;
-          } else {
-            return 1;
-          }
-        });
+        employeeList.sort((a, b) => a.name.last.toLowerCase()
+          .localeCompare(b.name.last.toLowerCase()));
         setFilteredEmployees([...employeeList]);
         break;
 
       case "location":
-        employeeList.sort((a, b) => {
-          if (a.location.state.toLowerCase() < b.location.state.toLowerCase()) {
-            return -1;
-          } else {
-            return 1;
-          }
-        });
+        employeeList.sort((a, b) => a.location.state.toLowerCase()
+          .localeCompare(b.location.state.toLowerCase()));
         setFilteredEmployees([...employeeList]);
         break;
 
       case "email":
-        employeeList.sort((a, b) => {
-          if (a.email.toLowerCase() < b.email.toLowerCase()) {
-            return -1;
-          } else {
-            return 1;
-          }
-        });
+        employeeList.sort((a, b) => a.email.toLowerCase()
+          .localeCompare(b.email.toLowerCase()));
         setFilteredEmployees([...employeeList]);
         break;
 

@@ -45,9 +45,7 @@ function Main() {
 
       case "location":
         employeeList.sort((a, b) => {
-          if (
-            a.location.state.toLowerCase() < b.location.state.toLowerCase()
-          ) {
+          if (a.location.state.toLowerCase() < b.location.state.toLowerCase()) {
             return -1;
           } else {
             return 1;
